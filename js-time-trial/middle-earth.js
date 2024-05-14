@@ -1,7 +1,9 @@
 /**
  * Example Frodo -> odorF / Gollum -> mulloG / "" -> ""
  */
-export function reverseString(s) {}
+export function reverseString(s) {
+  // TODO: Complete this function
+}
 
 /**
  * Example Frodo -> 2 / Gollum -> 2 / aeiou -> 5
