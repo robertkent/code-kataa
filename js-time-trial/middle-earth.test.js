@@ -49,6 +49,6 @@ describe("Middle Earth", () => {
   test("sortCharacters", () => {
     expect(sortCharacters("Frodo")).toBe("Fdoor");
     expect(sortCharacters("Gollum")).toBe("Gllmou");
-    expect(sortCharacters("Middle Earth")).toBe(" ETaddhillmr");
+    expect(sortCharacters("Middle Earth")).toBe("EMaddehilrt");
   });
 });

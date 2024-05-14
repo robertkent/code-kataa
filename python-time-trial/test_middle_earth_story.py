@@ -43,7 +43,7 @@ class TestLotrStory(unittest.TestCase):
     def test_sort_characters(self):
         self.assertEqual(sort_characters("Frodo"), "Fdoor")
         self.assertEqual(sort_characters("Gollum"), "Gllmou")
-        self.assertEqual(sort_characters("Middle Earth"), " ETaddhillmr")
+        self.assertEqual(sort_characters("Middle Earth"), "EMaddehilrt")
 
 if __name__ == "__main__":
     unittest.main()

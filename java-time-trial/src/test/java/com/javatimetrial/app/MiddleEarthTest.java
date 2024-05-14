@@ -49,6 +49,6 @@ public class MiddleEarthTest {
     public void testSortCharacters() {
         assertEquals("Fdoor", MiddleEarth.sortCharacters("Frodo"));
         assertEquals("Gllmou", MiddleEarth.sortCharacters("Gollum"));
-        assertEquals(" ETaddhillmr", MiddleEarth.sortCharacters("Middle Earth"));
+        assertEquals("EMaddehilrt", MiddleEarth.sortCharacters("Middle Earth"));
     }
 }
